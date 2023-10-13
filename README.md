@@ -20,7 +20,7 @@ Repository for predicting RUL for Turbo Fan Jet Engine
    l. lightgbm
    m. carboost
 4. If you want to use other files to train your model such as train_FD002.txt, you should use appropriate test and results file such as test_FD002.txt and RUL_FD002.txt.
-   ## Note: training with a different file may need different feature engineering methods and could result in a different model
+   #### Note: training with a different file may need different feature engineering methods and could result in a different model
    
 # Data
 The Data for this notebook was sourced from Kaggle https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
