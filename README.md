@@ -5,21 +5,36 @@ Repository for predicting RUL for Turbo Fan Jet Engine
 1. Create a sub-folder called input from your working directory and copy the source files train_FD001.txt, test_FD001.txt and RUL_FD001.txt
 2. You may need to install the libraries used in the notebook
 3. The following libraries have been used in the notebook
+   
    a. os
+   
    b. pandas
+   
    c. matlplotlib
+   
    d. numpy
+   
    e. seaborn
+   
    f. time
+   
    g. contextlib
+   
    h. warnings
+   
    i. sklearn
+   
    j. statsmodels
+   
    k. hyperopt
+   
    j. xgboost
+   
    l. lightgbm
+   
    m. carboost
-4. If you want to use other files to train your model such as train_FD002.txt, you should use appropriate test and results file such as test_FD002.txt and RUL_FD002.txt.
+   
+5. If you want to use other files to train your model such as train_FD002.txt, you should use appropriate test and results file such as test_FD002.txt and RUL_FD002.txt.
    #### Note: training with a different file may need different feature engineering methods and could result in a different model
    
 # Data
